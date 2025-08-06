@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="typedText"></h1>
+
+    <div id="scratchContainer" class="hidden">
+      <button id="clickMeBtn">CLICK ME 🎁</button>
+      <canvas id="scratchCanvas"></canvas>
+    </div>
+
+    <p id="message"></p>
+    <audio id="birthdaySong" src="https://www.fesliyanstudios.com/play-mp3/387" preload="auto"></audio>
+  </div>
+
+  <!-- 🎉 Popup slideshow window -->
+  <!-- 🎉 Slideshow container shown after CLICK ME -->
+<div id="popupWindow" class="hidden">
+  <button id="closePopupBtn">✖</button>
+  <div id="imageSlideshow">
+    <img id="slideshowImg" src="" alt="Memory" />
+  </div>
+</div>
+
+<audio id="happyBirthdayAudio" src="audio.mp3" preload="auto"></audio>
+
+<!-- Magic Wand Element -->
+<img src="I9.png" id="magicWand" class="hidden wand-animation" alt="Magic Wand" />
+
+
+
+  <footer>
+    <marquee>I WISH ALL YOU DREAMS COME TRUE</marquee>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
